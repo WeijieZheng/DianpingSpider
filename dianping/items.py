@@ -10,10 +10,11 @@ import scrapy
 
 class DianPingItem(scrapy.Item):
     stars = scrapy.Field()
-    average = scrapy.Field()
+    '''average = scrapy.Field()
     taste = scrapy.Field()
     env = scrapy.Field()
-    server = scrapy.Field()
+    server = scrapy.Field()'''
+    counts = scrapy.Field()
     phone = scrapy.Field()
     address = scrapy.Field()
     time = scrapy.Field()

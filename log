@@ -1,0 +1,371 @@
+2014-12-28 14:21:18+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 14:21:18+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 14:21:18+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 14:21:19+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 14:23:53+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 14:23:53+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 14:23:53+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 14:23:53+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 14:24:33+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 14:24:33+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 14:24:33+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 14:24:33+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 14:24:33+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-12-28 14:24:33+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-12-28 14:24:33+0800 [scrapy] INFO: Enabled item pipelines: DianPingPipeline
+2014-12-28 14:24:33+0800 [dianping1] INFO: Spider opened
+2014-12-28 14:24:33+0800 [dianping1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-12-28 14:24:33+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2014-12-28 14:24:33+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2014-12-28 14:24:33+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5
+2014-12-28 14:24:33+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5
+2014-12-28 14:24:33+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5
+2014-12-28 14:24:33+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18525714> (referer: None)
+2014-12-28 14:24:33+0800 [dianping1] ERROR: Spider error processing <GET http://www.dianping.com/shop/18525714>
+	Traceback (most recent call last):
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 382, in callback
+	    self._startRunCallbacks(result)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 490, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 577, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/Users/apple/Scrapy/dianping/dianping/spiders/spiderTest.py", line 67, in parse
+	    item['time'] = [time[0].strip()]
+	exceptions.IndexError: list index out of range
+	
+2014-12-28 14:24:36+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/21029470> (referer: None)
+2014-12-28 14:24:36+0800 [dianping1] ERROR: Spider error processing <GET http://www.dianping.com/shop/21029470>
+	Traceback (most recent call last):
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 382, in callback
+	    self._startRunCallbacks(result)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 490, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 577, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/Users/apple/Scrapy/dianping/dianping/spiders/spiderTest.py", line 67, in parse
+	    item['time'] = [time[0].strip()]
+	exceptions.IndexError: list index out of range
+	
+2014-12-28 14:24:38+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18016330> (referer: None)
+2014-12-28 14:24:38+0800 [dianping1] ERROR: Spider error processing <GET http://www.dianping.com/shop/18016330>
+	Traceback (most recent call last):
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 382, in callback
+	    self._startRunCallbacks(result)
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 490, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/twisted/internet/defer.py", line 577, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/Users/apple/Scrapy/dianping/dianping/spiders/spiderTest.py", line 45, in parse
+	    server = sites[5].xpath('text()').extract()
+	exceptions.IndexError: list index out of range
+	
+2014-12-28 14:24:38+0800 [dianping1] INFO: Closing spider (finished)
+2014-12-28 14:24:38+0800 [dianping1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 879,
+	 'downloader/request_count': 3,
+	 'downloader/request_method_count/GET': 3,
+	 'downloader/response_bytes': 75074,
+	 'downloader/response_count': 3,
+	 'downloader/response_status_count/200': 3,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 12, 28, 6, 24, 38, 859365),
+	 'log_count/DEBUG': 5,
+	 'log_count/ERROR': 3,
+	 'log_count/INFO': 10,
+	 'response_received_count': 3,
+	 'scheduler/dequeued': 3,
+	 'scheduler/dequeued/memory': 3,
+	 'scheduler/enqueued': 3,
+	 'scheduler/enqueued/memory': 3,
+	 'spider_exceptions/IndexError': 3,
+	 'start_time': datetime.datetime(2014, 12, 28, 6, 24, 33, 569519)}
+2014-12-28 14:24:38+0800 [dianping1] INFO: Spider closed (finished)
+2014-12-28 15:02:59+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 15:02:59+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 15:02:59+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 15:02:59+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 15:02:59+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-12-28 15:02:59+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-12-28 15:02:59+0800 [scrapy] INFO: Enabled item pipelines: DianPingPipeline
+2014-12-28 15:02:59+0800 [dianping1] INFO: Spider opened
+2014-12-28 15:02:59+0800 [dianping1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-12-28 15:02:59+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2014-12-28 15:02:59+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2014-12-28 15:02:59+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2014-12-28 15:02:59+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1
+2014-12-28 15:02:59+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2014-12-28 15:03:00+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18525714> (referer: None)
+2014-12-28 15:03:00+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:03:00+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18525714>
+	{'address': [u'\u5c4f\u98ce\u885721\u53f7'],
+	 'counts': ['66\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a15\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.0, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.0, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.7, '],
+	 'labels': [''],
+	 'phone': ['0571-86500022'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'9\uff1a00-21\uff1a30']}
+2014-12-28 15:03:02+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/21029470> (referer: None)
+2014-12-28 15:03:02+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:03:02+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/21029470>
+	{'address': [u'\u6c5f\u6656\u8def1930\u53f7\u4e1c\u548c\u65f6\u4ee31\u697c\uff08\u661f\u5149\u5927\u90532\u671f\u6b65\u884c\u8857\u53e3\uff09(\u8fd1\u4e1c\u548c\u65f6\u4ee3)'],
+	 'counts': ['51\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a65\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.6, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.8, '],
+	 'labels': [''],
+	 'phone': ['0571-87062890'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'10:30-24\uff1a00']}
+2014-12-28 15:03:05+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18016330> (referer: None)
+2014-12-28 15:03:05+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:03:05+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18016330>
+	{'address': [u'\u73af\u57ce\u4e1c\u8def12-3\u53f7'],
+	 'counts': ['\xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a-, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a7.4, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.3, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.3, '],
+	 'labels': [''],
+	 'phone': ['15068160032'],
+	 'stars': ['\xe5\x87\x86\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'\u5c1a\u65e0\u8425\u4e1a\u65f6\u95f4']}
+2014-12-28 15:03:05+0800 [dianping1] INFO: Closing spider (finished)
+2014-12-28 15:03:05+0800 [dianping1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 896,
+	 'downloader/request_count': 3,
+	 'downloader/request_method_count/GET': 3,
+	 'downloader/response_bytes': 75090,
+	 'downloader/response_count': 3,
+	 'downloader/response_status_count/200': 3,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 12, 28, 7, 3, 5, 544518),
+	 'item_scraped_count': 3,
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 13,
+	 'response_received_count': 3,
+	 'scheduler/dequeued': 3,
+	 'scheduler/dequeued/memory': 3,
+	 'scheduler/enqueued': 3,
+	 'scheduler/enqueued/memory': 3,
+	 'start_time': datetime.datetime(2014, 12, 28, 7, 2, 59, 799653)}
+2014-12-28 15:03:05+0800 [dianping1] INFO: Spider closed (finished)
+2014-12-28 15:15:40+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 15:15:40+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 15:15:40+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 15:15:40+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 15:15:40+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-12-28 15:15:40+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-12-28 15:15:40+0800 [scrapy] INFO: Enabled item pipelines: DianPingPipeline
+2014-12-28 15:15:40+0800 [dianping1] INFO: Spider opened
+2014-12-28 15:15:40+0800 [dianping1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-12-28 15:15:40+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2014-12-28 15:15:40+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6081
+2014-12-28 15:15:40+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5
+2014-12-28 15:15:40+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6
+2014-12-28 15:15:40+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2014-12-28 15:15:40+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+2014-12-28 15:15:40+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18525714> (referer: None)
+2014-12-28 15:15:40+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:15:40+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18525714>
+	{'address': [u'\u5c4f\u98ce\u885721\u53f7'],
+	 'counts': ['66\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a15\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.0, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.0, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.7, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3)'],
+	 'phone': ['0571-86500022'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'9\uff1a00-21\uff1a30']}
+2014-12-28 15:15:42+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/21029470> (referer: None)
+2014-12-28 15:15:42+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:15:42+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/21029470>
+	{'address': [u'\u6c5f\u6656\u8def1930\u53f7\u4e1c\u548c\u65f6\u4ee31\u697c\uff08\u661f\u5149\u5927\u90532\u671f\u6b65\u884c\u8857\u53e3\uff09(\u8fd1\u4e1c\u548c\u65f6\u4ee3)'],
+	 'counts': ['51\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a65\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.6, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.8, '],
+	 'labels': [''],
+	 'phone': ['0571-87062890'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'10:30-24\uff1a00']}
+2014-12-28 15:15:45+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18016330> (referer: None)
+2014-12-28 15:15:45+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:15:45+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18016330>
+	{'address': [u'\u73af\u57ce\u4e1c\u8def12-3\u53f7'],
+	 'counts': ['\xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a-, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a7.4, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.3, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.3, '],
+	 'labels': [''],
+	 'phone': ['15068160032'],
+	 'stars': ['\xe5\x87\x86\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'\u5c1a\u65e0\u8425\u4e1a\u65f6\u95f4']}
+2014-12-28 15:15:47+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/19363280> (referer: None)
+2014-12-28 15:15:47+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:15:47+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/19363280>
+	{'address': [u'\u6ee8\u76db\u8def\u4e0e\u5b89\u4e1a\u8def\u4ea4\u53c9\u53e3\u541b\u5c1a\u91d1\u5ea71\u697c(\u9760\u8fd1\u53cc\u57ce\u56fd\u9645)'],
+	 'counts': ['162\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a83\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a9.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.7, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a8.9, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3), \xe5\xae\xb6\xe5\xba\xad\xe8\x81\x9a\xe4\xbc\x9a(2)'],
+	 'phone': ['0571-85222327'],
+	 'stars': ['\xe4\xba\x94\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': [u'\u4e2d\u5348\uff1a11am-2pm\n\u665a\u4e0a\uff1a5pm-10pm']}
+2014-12-28 15:15:47+0800 [dianping1] INFO: Closing spider (finished)
+2014-12-28 15:15:47+0800 [dianping1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 1179,
+	 'downloader/request_count': 4,
+	 'downloader/request_method_count/GET': 4,
+	 'downloader/response_bytes': 107366,
+	 'downloader/response_count': 4,
+	 'downloader/response_status_count/200': 4,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 12, 28, 7, 15, 47, 819704),
+	 'item_scraped_count': 4,
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 15,
+	 'response_received_count': 4,
+	 'scheduler/dequeued': 4,
+	 'scheduler/dequeued/memory': 4,
+	 'scheduler/enqueued': 4,
+	 'scheduler/enqueued/memory': 4,
+	 'start_time': datetime.datetime(2014, 12, 28, 7, 15, 40, 764936)}
+2014-12-28 15:15:47+0800 [dianping1] INFO: Spider closed (finished)
+2014-12-28 15:28:08+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 15:28:08+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 15:28:08+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 15:28:08+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 15:28:08+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-12-28 15:28:08+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-12-28 15:28:08+0800 [scrapy] INFO: Enabled item pipelines: DianPingPipeline
+2014-12-28 15:28:08+0800 [dianping1] INFO: Spider opened
+2014-12-28 15:28:08+0800 [dianping1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-12-28 15:28:08+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6025
+2014-12-28 15:28:08+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6082
+2014-12-28 15:28:08+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2014-12-28 15:28:08+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2014-12-28 15:28:08+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5
+2014-12-28 15:28:08+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1
+2014-12-28 15:28:09+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18525714> (referer: None)
+2014-12-28 15:28:09+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:09+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18525714>
+	{'address': [u'\u5c4f\u98ce\u885721\u53f7'],
+	 'counts': ['66\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a15\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.0, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.0, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.7, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3)'],
+	 'phone': ['0571-86500022'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['9\xef\xbc\x9a00-21\xef\xbc\x9a30']}
+2014-12-28 15:28:12+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/21029470> (referer: None)
+2014-12-28 15:28:12+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:12+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/21029470>
+	{'address': [u'\u6c5f\u6656\u8def1930\u53f7\u4e1c\u548c\u65f6\u4ee31\u697c\uff08\u661f\u5149\u5927\u90532\u671f\u6b65\u884c\u8857\u53e3\uff09(\u8fd1\u4e1c\u548c\u65f6\u4ee3)'],
+	 'counts': ['51\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a65\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.6, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.8, '],
+	 'labels': [''],
+	 'phone': ['0571-87062890'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['10:30-24\xef\xbc\x9a00']}
+2014-12-28 15:28:14+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18016330> (referer: None)
+2014-12-28 15:28:14+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:14+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18016330>
+	{'address': [u'\u73af\u57ce\u4e1c\u8def12-3\u53f7'],
+	 'counts': ['\xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a-, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a7.4, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.3, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.3, '],
+	 'labels': [''],
+	 'phone': ['15068160032'],
+	 'stars': ['\xe5\x87\x86\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['\xe5\xb0\x9a\xe6\x97\xa0\xe8\x90\xa5\xe4\xb8\x9a\xe6\x97\xb6\xe9\x97\xb4']}
+2014-12-28 15:28:17+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/19363280> (referer: None)
+2014-12-28 15:28:17+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:17+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/19363280>
+	{'address': [u'\u6ee8\u76db\u8def\u4e0e\u5b89\u4e1a\u8def\u4ea4\u53c9\u53e3\u541b\u5c1a\u91d1\u5ea71\u697c(\u9760\u8fd1\u53cc\u57ce\u56fd\u9645)'],
+	 'counts': ['162\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a83\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a9.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.7, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a8.9, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3), \xe5\xae\xb6\xe5\xba\xad\xe8\x81\x9a\xe4\xbc\x9a(2)'],
+	 'phone': ['0571-85222327'],
+	 'stars': ['\xe4\xba\x94\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['\xe6\x99\x9a\xe4\xb8\x8a\xef\xbc\x9a5pm-10pm']}
+2014-12-28 15:28:17+0800 [dianping1] INFO: Closing spider (finished)
+2014-12-28 15:28:17+0800 [dianping1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 1182,
+	 'downloader/request_count': 4,
+	 'downloader/request_method_count/GET': 4,
+	 'downloader/response_bytes': 107606,
+	 'downloader/response_count': 4,
+	 'downloader/response_status_count/200': 4,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 12, 28, 7, 28, 17, 435477),
+	 'item_scraped_count': 4,
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 15,
+	 'response_received_count': 4,
+	 'scheduler/dequeued': 4,
+	 'scheduler/dequeued/memory': 4,
+	 'scheduler/enqueued': 4,
+	 'scheduler/enqueued/memory': 4,
+	 'start_time': datetime.datetime(2014, 12, 28, 7, 28, 8, 979859)}
+2014-12-28 15:28:17+0800 [dianping1] INFO: Spider closed (finished)
+2014-12-28 15:28:29+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: dianping)
+2014-12-28 15:28:29+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-12-28 15:28:29+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'dianping.spiders', 'SPIDER_MODULES': ['dianping.spiders'], 'LOG_FILE': 'log', 'COOKIES_ENABLED': False, 'BOT_NAME': 'dianping'}
+2014-12-28 15:28:29+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-12-28 15:28:30+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-12-28 15:28:30+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-12-28 15:28:30+0800 [scrapy] INFO: Enabled item pipelines: DianPingPipeline
+2014-12-28 15:28:30+0800 [dianping1] INFO: Spider opened
+2014-12-28 15:28:30+0800 [dianping1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-12-28 15:28:30+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6025
+2014-12-28 15:28:30+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6082
+2014-12-28 15:28:30+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2014-12-28 15:28:30+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3
+2014-12-28 15:28:30+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6
+2014-12-28 15:28:30+0800 [scrapy] NOLEVEL: Current UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6
+2014-12-28 15:28:30+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18525714> (referer: None)
+2014-12-28 15:28:30+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:30+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18525714>
+	{'address': [u'\u5c4f\u98ce\u885721\u53f7'],
+	 'counts': ['66\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a15\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.0, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.0, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.7, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3)'],
+	 'phone': ['0571-86500022'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['9\xef\xbc\x9a00-21\xef\xbc\x9a30']}
+2014-12-28 15:28:32+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/21029470> (referer: None)
+2014-12-28 15:28:32+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:32+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/21029470>
+	{'address': [u'\u6c5f\u6656\u8def1930\u53f7\u4e1c\u548c\u65f6\u4ee31\u697c\uff08\u661f\u5149\u5927\u90532\u671f\u6b65\u884c\u8857\u53e3\uff09(\u8fd1\u4e1c\u548c\u65f6\u4ee3)'],
+	 'counts': ['51\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a65\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a8.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.6, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.8, '],
+	 'labels': [''],
+	 'phone': ['0571-87062890'],
+	 'stars': ['\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['10:30-24\xef\xbc\x9a00']}
+2014-12-28 15:28:35+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/18016330> (referer: None)
+2014-12-28 15:28:35+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:35+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/18016330>
+	{'address': [u'\u73af\u57ce\u4e1c\u8def12-3\u53f7'],
+	 'counts': ['\xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a-, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a7.4, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a7.3, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a7.3, '],
+	 'labels': [''],
+	 'phone': ['15068160032'],
+	 'stars': ['\xe5\x87\x86\xe5\x9b\x9b\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['\xe5\xb0\x9a\xe6\x97\xa0\xe8\x90\xa5\xe4\xb8\x9a\xe6\x97\xb6\xe9\x97\xb4']}
+2014-12-28 15:28:38+0800 [dianping1] DEBUG: Crawled (200) <GET http://www.dianping.com/shop/19363280> (referer: None)
+2014-12-28 15:28:38+0800 [scrapy] NOLEVEL: Append done.
+2014-12-28 15:28:38+0800 [dianping1] DEBUG: Scraped from <200 http://www.dianping.com/shop/19363280>
+	{'address': [u'\u6ee8\u76db\u8def\u4e0e\u5b89\u4e1a\u8def\u4ea4\u53c9\u53e3\u541b\u5c1a\u91d1\u5ea71\u697c(\u9760\u8fd1\u53cc\u57ce\u56fd\u9645)'],
+	 'counts': ['162\xe6\x9d\xa1\xe8\xaf\x84\xe8\xae\xba, \xe4\xba\xba\xe5\x9d\x87\xef\xbc\x9a83\xe5\x85\x83, \xe5\x8f\xa3\xe5\x91\xb3\xef\xbc\x9a9.1, \xe7\x8e\xaf\xe5\xa2\x83\xef\xbc\x9a8.7, \xe6\x9c\x8d\xe5\x8a\xa1\xef\xbc\x9a8.9, '],
+	 'labels': ['\xe6\x97\xa0\xe7\xba\xbf\xe4\xb8\x8a\xe7\xbd\x91(3), \xe6\x9c\x8b\xe5\x8f\x8b\xe8\x81\x9a\xe9\xa4\x90(3), \xe5\xae\xb6\xe5\xba\xad\xe8\x81\x9a\xe4\xbc\x9a(2)'],
+	 'phone': ['0571-85222327'],
+	 'stars': ['\xe4\xba\x94\xe6\x98\x9f\xe5\x95\x86\xe6\x88\xb7'],
+	 'time': ['\xe4\xb8\xad\xe5\x8d\x88\xef\xbc\x9a11am-2pm, \xe6\x99\x9a\xe4\xb8\x8a\xef\xbc\x9a5pm-10pm']}
+2014-12-28 15:28:38+0800 [dianping1] INFO: Closing spider (finished)
+2014-12-28 15:28:38+0800 [dianping1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 1193,
+	 'downloader/request_count': 4,
+	 'downloader/request_method_count/GET': 4,
+	 'downloader/response_bytes': 107630,
+	 'downloader/response_count': 4,
+	 'downloader/response_status_count/200': 4,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 12, 28, 7, 28, 38, 98140),
+	 'item_scraped_count': 4,
+	 'log_count/DEBUG': 10,
+	 'log_count/INFO': 15,
+	 'response_received_count': 4,
+	 'scheduler/dequeued': 4,
+	 'scheduler/dequeued/memory': 4,
+	 'scheduler/enqueued': 4,
+	 'scheduler/enqueued/memory': 4,
+	 'start_time': datetime.datetime(2014, 12, 28, 7, 28, 30, 24844)}
+2014-12-28 15:28:38+0800 [dianping1] INFO: Spider closed (finished)
